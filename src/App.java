@@ -139,7 +139,7 @@ public class App {
                     System.out.println("Ukoncuji aplikaci");
                     try {
                         Akce.loadingBar();
-                        System.out.println("Aplikace ukoncena.");
+                        System.out.println("\nAplikace ukoncena.");
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
